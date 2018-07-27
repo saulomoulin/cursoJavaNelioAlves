@@ -8,7 +8,8 @@ import entities.Triangle;
 public class xxx {
 
 	public static void main(String[] args) {
-
+		
+		// alteração realizada para o GIT
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 		
