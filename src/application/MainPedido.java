@@ -14,5 +14,8 @@ public class MainPedido {
 		
 		StatusDoPedido os1 = StatusDoPedido.ENTREGUE;
 		StatusDoPedido os2 = StatusDoPedido.valueOf("ENTREGUE");
+		
+		System.out.println(os1);
+		System.out.println(os2);
 	}
 }
