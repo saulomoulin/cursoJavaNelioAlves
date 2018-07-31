@@ -43,7 +43,7 @@ public class MainEmployee {
 				
 				// list.add(new Employee(name, hours, valuePerHour)); // declaração utilizando somente uma linha
 				// ou
-				Employee emp = new Employee(name, hours, valuePerHour)
+				Employee emp = new Employee(name, hours, valuePerHour);
 				list.add(emp);
 			}
 		}
