@@ -8,9 +8,9 @@ public class MainAccount {
 
 	public static void main(String[] args) {
 		
-		Account acc1 = new Account(1001, "Saulo", 950.0);
-		acc1.withdraw(250.0);
-		System.out.println("Saldo Conta Normal..: " + acc1.getBalance()+ " - Desconta R$5 no saque");
+//		Account acc1 = new Account(1001, "Saulo", 950.0);
+//		acc1.withdraw(250.0);
+//		System.out.println("Saldo Conta Normal..: " + acc1.getBalance()+ " - Desconta R$5 no saque");
 		
 		Account acc2 = new SavingsAccount(1002, "Saulo", 950.0, 0.01);
 		acc2.withdraw(250.0);
